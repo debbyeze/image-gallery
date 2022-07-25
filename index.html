@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallery</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+       <article class="container mx-auto px-4">
+         <section>
+           <div class="p-4 ">
+              <h2  id="topic">My Shoe Gallery</h2>
+           </div>
+         </section>
+         <section class="min-h-screen flex items-center mx-4">
+           <div class="grid grid-cols-3 gap-5  grid-rows-2 grid-flow-col">
+             <div>
+               <img src="/images/fashion-shoes-sneakers.jpg" alt="sneaker shoe">
+               <p class="image__description " id="img_txt"> First Collection</p>
+               
+             </div>
+             <div>
+               <img src="/images/pair-trainers.jpg" alt="trainers shoe">
+               <p class="image__description" id="img_txt"> Second Collection</p>
+             </div>
+             <div>
+               <img src="/images/sport-running-shoes.jpg" alt="sports shoe">
+               <p class="image__description" id="img_txt"> Third Collection</p>
+             </div>
+             <div>
+               <img src="/images/sneakers-shoes.jpg" alt="men shoe">
+               <p class="image__description" id="img_txt"> Fourth Collection</p>
+             </div>
+             <div>
+               <img src="/images/women-s-red-high-heel-shoes-formal-fashion.jpg" alt="heel shoe for women">
+               <p class="image__description" id="img_txt"> Fifth Collection</p>
+             </div>
+             <div>
+               <img src="/images/3191.jpg" alt=" shoe">
+               <p class="image__description" id="img_txt"> Sixth Collection</p>
+             </div>
+           </div>
+         </section>
+       </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

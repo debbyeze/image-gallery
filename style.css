@@ -1,0 +1,16 @@
+.image__description{
+    font-size: medium;
+    font-weight: bold;
+    color:white;
+    text-align:center;
+    background-color: rgb(146, 146, 238);
+}
+.image__description:hover{
+    cursor: pointer;
+}
+#topic{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(146, 146, 238);
+}
